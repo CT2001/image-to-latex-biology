@@ -2,7 +2,7 @@ import os
 import shutil
 
 label_dir = '../data/formula_labels/'
-image_dir = '/kaggle/input/formula-image/math_formula_images_grey/math_formula_images_grey/'
+image_dir = '/kaggle/input/formulaimagebiology/biology_formula_images_grey/biology_formula_images_grey/'
 output_dir = '../data/formula_images/'
 
 label_name_list = os.listdir(label_dir)

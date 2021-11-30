@@ -21,4 +21,4 @@ python data_preprocess_for_im2latex.py
 cd ..
 chmod +x scripts/find_and_replace.sh
 scripts/find_and_replace.sh data/im2latex_formulas.norm.lst data/im2latex_formulas.norm.new.lst
-python scripts/prepare_data.py --project_path='/kaggle/working/image-to-latex'
+python scripts/prepare_data.py --project_path='/kaggle/working/image-to-latex-biology'
