@@ -7,11 +7,11 @@ ln -s libstdc++.so.6.0.29 libstdc++.so.6
 cd /kaggle/working
 pip install hydra-core --upgrade
 pip install editdistance
-mkdir -p image-to-latex/data/formula_labels_oneline
-mkdir -p image-to-latex/data/formula_labels_noerror
-mkdir -p image-to-latex/data/formula_labels
-mkdir -p image-to-latex/data/formula_images
-cd image-to-latex/data-preprocess/
+mkdir -p image-to-latex-biology/data/formula_labels_oneline
+mkdir -p image-to-latex-biology/data/formula_labels_noerror
+mkdir -p image-to-latex-biology/data/formula_labels
+mkdir -p image-to-latex-biology/data/formula_images
+cd image-to-latex-biology/data-preprocess/
 python data_filter.py
 rm -r -f '../data/formula_labels_oneline'
 python no_chinese.py
