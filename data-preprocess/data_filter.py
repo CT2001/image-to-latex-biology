@@ -7,7 +7,7 @@ import shutil
 
 # # 筛除多行的label.txt
 
-input_label_dir = '/kaggle/input/formulaimagebiology/biology_labels/math_formula_images_grey_labels/'
+input_label_dir = '/kaggle/input/formulaimagebiology/biology_labels/biology_formula_images_grey_labels/'
 output_label_dir = '../data/formula_labels_oneline/'
 
 label_name_list = os.listdir(input_label_dir)
