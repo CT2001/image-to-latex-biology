@@ -23,31 +23,31 @@ dev_packages = [
 ]
 
 
-# setup(
-#     name="image-to-latex",
-#     version="0.1",
-#     license="MIT",
-#     description="Convert images to latex code.",
-#     author="King Yiu Suen",
-#     author_email="kingyiusuen@gmail.com",
-#     url="https://github.com/kingyiusuen/image-to-latex/",
-#     keywords=[
-#         "machine-learning",
-#         "deep-learning",
-#         "artificial-intelligence",
-#         "latex",
-#         "neural-network",
-#     ],
-#     classifiers=[
-#         "Development Status :: 1 - Planning",
-#         "Intended Audience :: Science/Research",
-#         "Topic :: Scientific/Engineering :: Artificial Intelligence",
-#         "License :: OSI Approved :: MIT License",
-#         "Programming Language :: Python :: 3",
-#     ],
-#     python_requires=">=3.6",
-#     install_requires=[required_packages],
-#     extras_require={
-#         "dev": dev_packages,
-#     },
-# )
+setup(
+    name="image-to-latex-biology",
+    version="0.1",
+    license="MIT",
+    description="Convert images to latex code.",
+    author="CT2001",
+    author_email="1982556616@qq.com",
+    url="https://github.com/CT2001/image-to-latex-biology",
+    keywords=[
+        "machine-learning",
+        "deep-learning",
+        "artificial-intelligence",
+        "latex",
+        "neural-network",
+    ],
+    classifiers=[
+        "Development Status :: 1 - Planning",
+        "Intended Audience :: Science/Research",
+        "Topic :: Scientific/Engineering :: Artificial Intelligence",
+        "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python :: 3",
+    ],
+    python_requires=">=3.6",
+    install_requires=[required_packages],
+    extras_require={
+        "dev": dev_packages,
+    },
+)
